@@ -5,7 +5,7 @@ import openai
 from openai import OpenAI
 import json
 import os
-
+os.environ["OPENAI_API_KEY"] = "your-api-key"
 API_KEY = os.getenv("OPENAI_API_KEY")
 # Command stored in a string variable
 command = "df.head()"
