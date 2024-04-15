@@ -12,7 +12,10 @@ import joblib
 from PIL import Image
 import os
 import sklearn
-#API_KEY = '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'
+from sklearn.ensemble import GradientBoostingRegressor
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder
+
 API_KEY = os.getenv("OPENAI_API_KEY")
 # Command stored in a string variable
 command = "df.head()"
