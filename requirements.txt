@@ -1,6 +1,0 @@
-streamlit
-numpy
-pandas
-seaborn
-openai
-streamlit_chat
