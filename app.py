@@ -15,7 +15,7 @@ import sklearn
 from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
-from sklearn.ensemble import _gb_losses
+#from sklearn.ensemble import _gb_losses
 
 API_KEY = os.getenv("OPENAI_API_KEY")
 # Command stored in a string variable
